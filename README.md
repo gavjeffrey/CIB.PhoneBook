@@ -14,7 +14,7 @@ Please make sure to restore nuget packages before running the project.
 Normally I would aim for much higher code coverage (this metric on its own is no guarantee of good/valid/relevant tests) but I ran out of time (see assumption below) and reluctantly decided to forego many tests so that I could complete the task.
 
 ## Front end
-The angular front end can be found below the WebUI/cib-phonebook folder. 
+The angular front end can be found below the cib-phonebook-web-ui folder. 
 
 Please use [npm](https://www.npmjs.com/) to restore packages required by the application. Use the following command
 ```cli
