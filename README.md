@@ -30,6 +30,8 @@ Please note that due to my time constraint no tests were written (normally would
 
 Also note that this front end is never going to win any design awards since I didn't focus on style at all due to time constraint. The idea was just to show that I can work with angular (in the past year I've done very little front end dev since most of my time is spent on backend - probably 95% backend and only help out when needed on UI atm).
 
+The backend needs to be running for the UI to function properly for the get and post requests. If you try to run it without the backend there will be errors written to the developer console.
+
 ## Assumptions
 - I time boxed myself to 3 hours to complete this project (time is money).
 - Assumed that there is only one phone book e.g. like a global directory (this is the reason there is no PhoneBook table and no FK to this in the PhoneBookEntry table)
