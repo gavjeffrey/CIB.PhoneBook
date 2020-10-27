@@ -13,6 +13,8 @@ Please make sure to restore nuget packages before running the project.
 
 Normally I would aim for much higher code coverage (this metric on its own is no guarantee of good/valid/relevant tests) but I ran out of time (see assumption below) and reluctantly decided to forego many tests so that I could complete the task.
 
+The backedn should run at the following local Uri: http://localhost:53700/
+
 ## Front end
 The angular front end can be found below the cib-phonebook-web-ui folder. 
 
@@ -31,6 +33,8 @@ Please note that due to my time constraint no tests were written (normally would
 Also note that this front end is never going to win any design awards since I didn't focus on style at all due to time constraint. The idea was just to show that I can work with angular (in the past year I've done very little front end dev since most of my time is spent on backend - probably 95% backend and only help out when needed on UI atm).
 
 The backend needs to be running for the UI to function properly for the get and post requests. If you try to run it without the backend there will be errors written to the developer console.
+
+The front end shoudl run at the following local Uri: http://localhost:4200/
 
 ## Assumptions
 - I time boxed myself to 3 hours to complete this project (time is money).
