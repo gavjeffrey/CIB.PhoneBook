@@ -37,7 +37,7 @@ The backend needs to be running for the UI to function properly for the get and 
 The front end should run at the following local Uri: http://localhost:4200/
 
 ## Assumptions
-- I time boxed myself to 3 hours to complete this project (time is money).
+- I time boxed myself to 3 hours to complete this project but ended up closer to 3.5 hours with the admin (ading to git, creating readme etc.).
 - Assumed that there is only one phone book e.g. like a global directory (this is the reason there is no PhoneBook table and no FK to this in the PhoneBookEntry table)
 - Assumed that a search can be done on name or number and also any part of either of these (i.e. text contains)
 - assumed that number may contain characters e.g. as an international number (+44 123) or phone words (0800 call us now)
